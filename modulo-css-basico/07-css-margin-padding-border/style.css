@@ -1,0 +1,42 @@
+body {
+    background-color: blueviolet;
+}
+p.margem {
+    /* margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px; 
+    
+    todas essas medidas podem ser resumidas coms as medidas sendo dispostas no sentido horário top, right, bottom, left, como descrito abaixo:
+    
+    margin: 50px 50px 50px 50px
+    
+    e se elas forem todas iguais assim, pode ser escrita simplesmente como abaixo:*/
+
+    margin: 50px;
+    background-color: aqua;
+/* 
+    você também pode escrever em duplas como mostrado abaixo:
+
+    margin: 50px 50px
+
+    sendo a primeira top e bottom e a segunda left e right. */
+}
+
+p.acolchoamento {
+    margin: 50px;
+    padding: 50px;
+    background-color: aquamarine;
+    /* o mesmo modo de escrita resumida, chamado de shorthand, pode ser aplicado com border. */
+}
+
+p.borda {
+    /* border: 20px;
+    border-style: solid;
+    border-color: black;
+    isso pode ser escrito com a shorthand abaixo: */
+    border: 20px solid black;
+    padding: 50px;
+    margin: 50px;
+    background-color: blanchedalmond;
+}
