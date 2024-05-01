@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    width: 300px;
+    font-size: 10vh;
+}
+.primeiro-elemento {
+    width: 98vw;
+    /* com essa medida o scroll lateral some, poderíamos ter usado a propriedade overflow-x: hidden; no body em CSS para sumir com essa barra de rolagem em baixo da tela */
+    background-color: aquamarine;
+}
+
+.segundo-elemento {
+    width: 100%;
+    background-color: blueviolet;
+}
