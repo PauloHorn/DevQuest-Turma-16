@@ -1,0 +1,13 @@
+.texto {
+    margin: 40px;
+    padding: 20px;
+}
+
+.texto-padrao {
+    background-color: #F5F5F5;
+}
+
+.texto-destaque {
+    background-color: #F0CCE2;
+    font-weight: bold;
+}
