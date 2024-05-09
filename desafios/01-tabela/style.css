@@ -1,0 +1,19 @@
+table {
+    color: white;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.cabecalho-moda {
+    background-color: #BB86FC;
+}
+
+.cabecalho-casa {
+    background-color: #00C4B4;
+}
+
+.corpo-tabela-moda, .corpo-tabela-casa {
+    background-color: #424250;
+}
