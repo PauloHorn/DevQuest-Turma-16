@@ -8,7 +8,7 @@ div {
 .com-border-box {
     background-color: aquamarine;
     box-sizing: border-box;
-    /* largura total do elemento =  */
+    /* largura total do elemento = 100px */
 }
 
 .sem-border-box {
