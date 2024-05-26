@@ -11,6 +11,50 @@
     text-align: center;
 }
 
+.alinhado-justificado {
+    text-align: justify;
+}
+
+
+/* -------Text Transform------- */
+.maiuscula {
+    text-transform: uppercase;
+}
+
+.minuscula {
+    text-transform: lowercase;
+}
+
+.capitalizado {
+    text-transform: capitalize;
+}
+
+
+/* -------Text Decoration------- */
+.sublinhado {
+    text-decoration: underline;
+}
+
+.linha-sobreposta {
+    text-decoration: line-through;
+}
+
+.sem-text-decoration {
+    text-decoration: none;
+}
+
+
+/* -------Letter Spacing------- */
+.altura-entre-linhas {
+    line-height: 40px;
+}
+
+
+/* -------Sombra no texto------- */
+.sombra-de-texto {
+    text-shadow: 10px 10px 2px #808080;
+}
+
 
 /* -------Geral------- */
 .fundo-alinhamento {
