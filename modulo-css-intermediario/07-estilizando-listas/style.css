@@ -1,0 +1,12 @@
+ul {
+    /* list-style-type: square;
+    list-style: inside; */
+    list-style: square inside;
+    
+}
+
+ul li {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: aqua;
+}

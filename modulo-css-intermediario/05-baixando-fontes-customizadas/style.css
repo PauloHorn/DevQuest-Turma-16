@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'ciber-gotica';
+    src: url(./fonts/CiberGotica.otf), url(./fonts/CiberGotica.ttf);
+}
+
+@font-face {
+    font-family: 'charakterny';
+    src: url(./fonts/Charakterny.otf), url(./fonts/Charakterny.ttf);
+}
+
+h1 {
+    font-family: 'ciber-gotica', Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: 'charakterny', Verdana, Geneva, Tahoma, sans-serif;
+}
