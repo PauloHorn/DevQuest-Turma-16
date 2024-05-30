@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 24px;
+}
+
+ul {
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+.em-bloco li {
+    background-color: aqua;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.em-linha li {
+    background-color: blueviolet;
+    display: inline;
+    /* width: 100px; - não faz nada pois o display é inline, por definição, fica no tamanho do conteúdo */
+    /* height: 100px; - não faz nada pois o display é inline, por definição, fica no tamanho do conteúdo */
+}
+
+.em-linha-e-bloco li {
+    background-color: chartreuse;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px; /* não sei se esse é o melhor jeito de centralizar um texto em altura */
+}
+
+.esconder {
+    display: none;
+}
