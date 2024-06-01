@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+.elemento {
+    color: #fff;
+    font-size: 32px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 200px;
+}
+
+.elemento-estatico {
+    /* position: static;
+    este position static vem por padrão, não precisamos definí-lo */
+
+    /* div é do tipo display block e não conseguimos por exemplo movimentá-lo para a esquerda */
+    background-color: crimson;
+}
+
+.elemento-relativo {
+    background-color: coral;
+    position: relative;
+    /* este posicionamento é em relação ao local onde ele foi criado no html */
+    left: 100px;
+}
+
+
+.elemento-estatico2 {
+    background-color: crimson;
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    font-size: 20px;
+}
+
+.elemento-absoluto {
+    background-color: darkcyan;
+    position: absolute;
+    /* quando usamos position absolute quer dizer que o destacamos da camada onde está, ele fica em cima da camada antiga, os elementos da camada antiga "sobem" e ficam escondidos */
+    left:230px;
+    top: 440px;
+}
+
+.elemento-relativo-com-filho {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(214
+    , 212, 212);
+    font-size: 20px;
+}
+
+.elemento-absoluto-com-pai {
+    position: absolute;
+    /* caso o elemento pai não tenha position relative, o elemento filho voltará a ficar "perdindo na tela, e não contido no elemento pai" */
+    background-color: darkblue;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    top: 0;
+    right: 0;
+}
