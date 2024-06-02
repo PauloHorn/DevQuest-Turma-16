@@ -66,4 +66,9 @@ main p {
 @media (max-width: 1200px) {}
 
 /* dispositivos extra-grandes, como desktops grandes televisores, 1200px ou maiores */
-/* @media (max-width: tamanho desejadopx) {} */
+@media (min-width: 1200px) {
+    .cabecalho nav {
+        background-color: rgb(103, 73, 100);
+        float: none;
+    }
+}
