@@ -1,0 +1,62 @@
+/* 
+Exemplo genérico:
+seletor:pseudoclasse {
+
+} */
+
+p:first-child {
+    color: aqua;
+}
+
+p:last-child{
+    color: blueviolet;
+}
+
+p:not(.padrao) {
+    color: chartreuse;
+}
+
+li:nth-child(odd) {
+    /*odd pega os elementos ímpares*/
+    color: brown;
+}
+
+li:nth-child(even){
+    /*even pega os elementos pares*/
+    color: darkolivegreen;
+}
+
+li:nth-child(3n){
+    /*aplica a propriedade a cada xn, no caso, a cada 3 ítens. Se não colocarmos n, vai estilizar o posição definido*/
+    color: black;
+}
+
+li:nth-child(5){
+    /*aplica a propriedade a cada xn, no caso, a cada 3 ítens. Se não colocarmos n, vai estilizar o posição definido*/
+    display: inline-block;
+    background-color: darkmagenta;
+}
+
+li:nth-child(n+10):nth-child(-n+15){
+    /*aplica a propriedade a cada xn, no caso, a cada 3 ítens. Se não colocarmos n, vai estilizar o posição definido*/
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+li:nth-last-child(2){
+    /*começa a contar do último elemento para o primeiro*/
+    display: inline-block;
+    background-color: blueviolet;
+    color: black;
+}
+
+p:only-child{
+    /*vai estilizar só os p que não possuem "irmãos". No nosso exemplo, dentro do arquivo html só existe 1 que sozinho*/
+    background-color: seagreen;
+}
+
+li:hover {
+    background-color: cornflowerblue;
+    transition: 0.5s;
+}
