@@ -1,0 +1,43 @@
+.paragrafo {
+    color: blueviolet;
+}
+
+#menu {
+    text-align: center;
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+.titulo.laranja {
+    color: orange;
+}
+
+/*se separarmos as duas classes o css vai entender que é uma classe filha da outra, ver exemplo mais abaixo*/
+
+.titulo.vermelho {
+    color: red;
+}
+
+p, span {
+    background-color: aqua;
+}
+
+.sobre .texto {
+    color: blue;
+}
+
+div > p {
+    background-color: brown;
+}
+
+div + p {
+    /*estiliza o elemento definido e o primeiro logo após ele*/
+    background-color: aquamarine;
+}
+
+a[target=_blank] {
+    /*se for colocar texto dentro do [], lembre-se de colocar entre aspas duplas*/
+    color: red;
+}

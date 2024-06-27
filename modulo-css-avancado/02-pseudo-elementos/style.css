@@ -1,0 +1,36 @@
+/*
+seletor::pseudo-elemento {
+propriedade: valor;
+}
+*/
+
+body {
+    padding: 30px;
+}
+
+p::first-letter {
+    /*first-letter só funciona para elementos com display block*/
+    color: coral;
+    font-size: 36px;
+}
+
+p::first-line {
+    background-color: aqua;
+}
+
+li {
+    list-style-position: inside;
+}
+li::marker {
+    color: red;
+    font-size: 23px;
+}
+
+h2::before {
+    content: url(https://th.bing.com/th/id/OIP.Dj0BZEH8IoOT10UU9H95bAHaHa?w=168&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    /*nesse caso de imagem, o background-image não funciona*/
+}
+
+h2::after {
+    content: " testando";
+}
