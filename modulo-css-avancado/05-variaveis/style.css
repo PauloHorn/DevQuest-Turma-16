@@ -1,0 +1,26 @@
+/*para usarmos variáveis precisamos criar um seletor na raiz, no root, que no caso é o documento HTML*/
+
+:root {
+    --cor-padrao: rgb(30, 255, 0);
+    --tamanho-de-fonte-padrao: 20px;
+}
+
+
+/*depois para usarmos as variáveis, dentro do seletor, ao escolher a propriedade, usamos var(--variavel-desejada)*/
+h2 {
+    color: var(--cor-padrao);
+}
+
+h3 {
+    color: var(--cor-padrao);
+}
+
+p {
+    color: var(--cor-padrao);
+    font-size: var(--tamanho-de-fonte-padrao);
+}
+
+span {
+    color: var(--cor-padrao);
+    font-size: var(--tamanho-de-fonte-padrao);
+}

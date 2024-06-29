@@ -5,24 +5,27 @@ seletor:pseudoclasse {
 } */
 
 p:first-child {
+    /*refere-se ao parágrafo que for o primeiro filho de qualquer elemento*/
     color: aqua;
 }
 
 p:last-child{
+    /*refere-se ao parágrafo que for o último filho de qualquer elemento*/
     color: blueviolet;
 }
 
 p:not(.padrao) {
+    /*refere-se ao parágrafo que não tiver a classe .padrao*/
     color: chartreuse;
 }
 
 li:nth-child(odd) {
-    /*odd pega os elementos ímpares*/
+    /*odd pega os elementos ímpares de uma lista*/
     color: brown;
 }
 
 li:nth-child(even){
-    /*even pega os elementos pares*/
+    /*even pega os elementos pares de uma lista*/
     color: darkolivegreen;
 }
 
