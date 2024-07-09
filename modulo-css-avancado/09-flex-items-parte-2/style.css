@@ -1,0 +1,46 @@
+.flex-0 {
+    /*forma resumida destas 3 propriedades: flex-grow, flex-shrink, flex-basis. Ao passar apenas 0, definimos grow 0, shrink 1 e basis 0 de uma vez só*/
+    flex: 0;
+    /*com isso, os filhos não ocupam todo o espaço do container pai*/
+}
+
+.flex-1 {
+    /*forma resumida destas 3 propriedades: flex-grow, flex-shrink, flex-basis. Ao passar apenas 1, definimos grow 1, shrink 1 e basis 0 de uma vez só*/
+    flex: 1;
+    /*com isso os filhos ocupam todo o espaço do container pai*/
+}
+
+.item.item4 {
+    order: 1;
+    /*vai fazer com que o conteúdo do elemento com classe item3 seja exibido por último*/
+}
+
+.item.item5 {
+    order: -1;
+    /*vai fazer com que o conteúdo do elemento com classe item5 seja exibido em primeiro lugar*/
+}
+
+.align-self.auto .item3 {
+    align-self: auto;
+    /*comportamento padrão, o conteúdo começa em cima e a caixa ocupa toda a altura disponível*/
+}
+
+.align-self.start .item3 {
+    align-self: flex-start;
+    /*o conteúdo começa em cima e a caixa ocupa só a altura do conteúdo*/
+}
+
+.align-self.end .item3 {
+    align-self: flex-end;
+    /*o conteúdo começa em baixo e a caixa ocupa só a altura do conteúdo*/
+}
+
+.align-self.center .item3 {
+    align-self: center;
+    /*o conteúdo fica centralizado e a caixa ocupa só a altura do conteúdo*/
+}
+
+.align-self.stretch .item3 {
+    align-self: stretch;
+    /*o conteúdo começa em cima e a caixa ocupa toda a lagura do container disponível*/
+}
