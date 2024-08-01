@@ -1,0 +1,53 @@
+:root {
+    --cor-de-fundo: hsl(218, 23%, 16%);
+    --cor-do-numero-do-conselho: hsl(150, 100%, 66%);
+    --cor-do-botao-gerador-de-conselho: hsl(150, 100%, 66%);
+    --cor-do-texto-do-conselho: hsl(193, 38%, 86%);
+    --cor-do-cartao: hsl(217, 19%, 24%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.gerador-de-conselho {
+    background-color: var(--cor-do-cartao);
+    max-width: 450px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 450px;
+    justify-content: space-between;
+}
+
+.numero-conselho {
+    color: var(--cor-do-numero-do-conselho);
+}
+
+.conselho {
+    color: var(--cor-do-texto-do-conselho);
+    font-size: 1em;
+}
+
+.botao {
+    background-color: var(--cor-do-botao-gerador-de-conselho);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: translateY(85%);
+}
+
+.botao:hover {
+    cursor: pointer;
+}
