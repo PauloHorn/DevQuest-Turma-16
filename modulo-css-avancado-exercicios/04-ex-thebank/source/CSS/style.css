@@ -1,0 +1,35 @@
+body {
+    background-color: #FFFFFF;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+menu ul {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    gap: 20px;
+}
+
+menu li {
+    line-height: 39px;
+}
+
+menu li:hover {
+    width: 127px;
+    height: 39px;
+    background-color: #5BC241;
+    text-align: center;
+    line-height: 39px;
+    border-radius: 10px;
+}
