@@ -1,0 +1,7 @@
+@media (max-width: 1400px) {
+    .fundo {
+        max-width: 900px;
+        margin: 50px auto;
+        gap: 1px;
+    }
+}

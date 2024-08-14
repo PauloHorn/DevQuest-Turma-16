@@ -1,25 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-family: "Public Sans", sans-serif;
+}
+
 .fundo {
-    background-color: #FFFFFF;
-}
-
-.lista-de-imagens {
     display: flex;
-    flex-direction: row;
+    gap: 10px;
+    /* margin: 50px 20px; */
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    align-items: center;
 }
 
-img {
-    width: 335px;
-    height: 432px;
-    margin: 50px 5px;
+.imagem {
+    position: relative;
 }
 
-@media (max-width: 600px) {
-    .lista-de-imagens {
-        flex-direction: column;
-        align-items: center;
-    }
+.identificacao {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color: #FFFFFF;
+}
 
-    img {
-        margin: 1px 0;
-    }
+.obra {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.autor {
+    font-size: 17px;
+    font-weight: 300;
 }
