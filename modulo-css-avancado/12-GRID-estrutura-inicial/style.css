@@ -45,7 +45,7 @@
     display: grid;
     grid-template: repeat(3, 100px)/repeat(3, auto);
     padding: 10px;
-    grid-gap: 5px 10px;
+    gap: 5px 10px;
 }
 
 .container4 > div{

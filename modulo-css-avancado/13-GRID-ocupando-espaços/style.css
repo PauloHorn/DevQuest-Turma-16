@@ -1,0 +1,53 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 15px;
+    background-image: linear-gradient(to right, #37133C, #7D2E68);
+    padding: 50px;
+    text-align: center;
+}
+
+div {
+    border-radius: 10px;
+}
+
+.verde-claro {
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;/*usado só para linhar os elementos internos ao  centro*/
+    align-items: center;
+    justify-content: center;
+}
+
+.azul {
+    background-color: cornflowerblue;
+    grid-column: 3 / 6;/*exemplo de short-hand*/
+}
+
+.rosa {
+    background-color: hotpink;
+    grid-column: 1 / span 2;/*exemplo de short-hand*/
+}
+
+.laranja-escuro {
+    background-color: orangered;
+    grid-column: 3 / 5;
+    grid-row: 2 / span 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verde-forte {
+    background-color: green;
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.marrom {
+    background-color: burlywood;
+}
