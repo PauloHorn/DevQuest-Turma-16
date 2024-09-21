@@ -6,6 +6,7 @@
     display: grid;
     background-color: aqua;
     gap: 20px;
+    padding: 50px;
 }
 
 .video-destaque {
