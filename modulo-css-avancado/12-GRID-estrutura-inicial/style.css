@@ -9,7 +9,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: auto 100px auto 30%;
+    grid-template-columns: auto 100px auto 50% 1fr;
     grid-template-rows: auto 70px auto 50px 60px;
     padding: 10px;
 }
@@ -28,7 +28,7 @@
     grid-template-columns: repeat(5, 60px);
     grid-template-rows: repeat(4, 70px);
     padding: 10px;
-    column-gap: 5px;
+    column-gap: 7px;
     row-gap: 2px;
 }
 
