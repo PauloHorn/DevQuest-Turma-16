@@ -1,0 +1,7 @@
+body {
+    background: url('../images/bg-desktop.svg');
+    background-color: hsl(257, 40%, 49%);
+}
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
