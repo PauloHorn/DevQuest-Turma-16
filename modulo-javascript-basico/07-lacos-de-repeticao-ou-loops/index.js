@@ -26,7 +26,8 @@ while(a < 11) {
 //bloco de execeução
 //} while(condição)
 //o código abaixo exibe a tabuada do 7
- var i = 0;
+ var b = 0;
  do{
-    console.log("7 x " + i + " = " + 7 * i);
- }while (i < 11);
+    console.log("7 x " + b + " = " + 7 * b);
+    b++;
+ }while (b < 11);
