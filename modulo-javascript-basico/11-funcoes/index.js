@@ -16,7 +16,7 @@ incentivarQuester();
 //O código abaixo vai imprimir no console a soma de 2 números
 function soma(numero1, numero2) {
     let resultado = numero1 + numero2
-    console.log("A soma " + numero1 + " mais o " + numero2 + " resulta em " + resultado)
+    console.log("A soma " + numero1 + " mais o " + numero2 + " resulta em " + resultado + ". Mas a concatenação de " + numero1 + " mais o " + numero2 + " resulta em " + numero1 + numero2 + ".")
 };
 
 soma(1,3);
