@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoisting - Içamento</title>
+</head>
+<body>
+    <h1>
+        Hoisting - Içamento
+    </h1>
+    <p>
+        Dependendo da forma que declararmos nossas variáveis, elas podem sofrer hoisting ou não.
+    </p>
+    <p>
+        Quando criamos uma variável, o processo pode ser dividido em duas partes:
+    </p>
+    <ul>
+        <li>Declaração da variável - é quando o javascript cria a variável. Ex: let variavel</li>
+        <li>inicialização da variável - quando ela passa a ter algum valor. Ex: variavel = valor</li>
+    </ul>
+    <p>
+        Quando você declara uma variável com var, o hoisting "iça" a declaração da variável para o topo do seu escopo (seja global ou de função). Isso significa que a variável existe antes da linha em que você a declara no código. No entanto, a inicialização (a atribuição de um valor à variável) não é içada. Portanto, se você tentar acessar uma variável var antes de sua declaração no código, você não receberá um erro; em vez disso, você obterá o valor undefined.
+    </p>
+    <p>
+        Variáveis declaradas com let também são içadas, mas elas não são inicializadas automaticamente com undefined. Em vez disso, elas permanecem em um estado chamado de Temporal Dead Zone (TDZ) (Zona Morta Temporária).
+
+        A TDZ é o período entre o início do escopo da variável e a linha em que ela é declarada no código. Se você tentar acessar uma variável let dentro da TDZ, você receberá um erro ReferenceError: Cannot access 'nomeDaVariavel' before initialization.
+    </p>
+
+    <script src="index.js"></script>
+</body>
+</html>
