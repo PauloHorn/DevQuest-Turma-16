@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Functions</title>
+</head>
+<body>
+    <h1>
+        Arrow Functions
+    </h1>
+    <p>
+        As arrow functions também são funcões anônimas e são conhecidas como "funções de seta" ou "funções flecha" também. São uma sintaxe mais concisa para escrever funções em JavaScript, introduzidas no ECMAScript 6 (ES6). Elas oferecem uma forma mais curta de definir funções, além de algumas diferenças comportamentais em relação às funções tradicionais. São escritas genericamente como:
+    </p>
+    <p>
+        (parâmetros) => {
+            corpo da função
+          };
+    </p>
+    <p>
+        As principais características e diferenças em relação às funções tradicionais são:
+    </p>
+    <ul>
+        <li>Sintaxe mais concisa: A principal vantagem das arrow functions é a sua sintaxe mais curta. Quando a função tem apenas uma expressão de retorno, você pode omitir as chaves {} e a palavra-chave return</li>
+        <li>this léxico: Uma das diferenças mais importantes é como o this é tratado. Em funções tradicionais, o this é dinâmico e seu valor depende de como a função é chamada. Em arrow functions, o this é léxico, ou seja, ele herda o valor do this do contexto circundante (o escopo em que a arrow function foi definida)</li>
+        <li>Não possuem arguments: Arrow functions não têm o objeto arguments disponível dentro do seu corpo. Se você precisar acessar os argumentos passados para a função, você pode usar parâmetros rest (...args)</li>
+        <li>Não podem ser usadas como construtoras: Arrow functions não podem ser usadas com o operador new. Tentar instanciar uma arrow function com new resultará em um erro</li>
+        <li>Não possuem prototype: Como não podem ser construtoras, arrow functions também não possuem a propriedade prototype</li>
+    </ul>
+    <p>
+        Quando evitar as arrow functions:
+    </p>
+    <ul>
+        <li>Métodos de objetos que precisam acessar o próprio objeto com this: Se você precisa acessar propriedades do próprio objeto usando this dentro de um método, é melhor usar uma função tradicional</li>
+        <li>Funções construtoras: Se você precisa criar um objeto com new, use uma função tradicional</li>
+        <li>Funções que precisam acessar o objeto arguments: Se você precisa acessar todos os argumentos passados para a função, use uma função tradicional ou parâmetros rest</li>
+    </ul>
+    <p>
+        Arrow functions oferecem uma sintaxe mais concisa e um comportamento léxico do this, o que as torna muito úteis em muitos casos. No entanto, é importante entender suas diferenças em relação às funções tradicionais para usá-las corretamente e evitar possíveis problemas.
+    </p>
+
+    <script src="index.js"></script>
+</body>
+</html>
