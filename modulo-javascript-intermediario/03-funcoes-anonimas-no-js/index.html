@@ -10,7 +10,45 @@
         Funções Anônimas
     </h1>
     <p>
-        
+        Funções anônimas são funções que não possuem um nme identificador. Temos 2 maneiras principais de declarar uma função anônima:
     </p>
+    <ul>
+        <li>
+            Expressão de função anônima: a função anônima é atribuída a uma variável e então ela é usada para chamar a função, usando parâmentros ou não, caso não tenham.
+        </li>
+        <li>
+            Função anônima imediatamente invocada (IIFE - Immediately Invoked Function Expression):
+        </li>
+    </ul>
+    <p>
+        As funções anônimas podem ser usadas para:
+    </p>
+    <ul>
+        <li>
+            Callbacks: funções que são passadas como argumentos para outras funções e executadas posteriormente;
+        </li>
+        <li>
+            Event handlers: Quando você precisa executar um código em resposta a um evento (como um clique de botão), você pode usar uma função anônima como um event handler;
+        </li>
+        <li>
+            Funções de ordem superior (higher-order Functions): são funções que recebem outras funções como argumentos ou retornam outras funções. Exemplos incluem map, filter, reduce e outras funções que operam sobre arrays;
+        </li>
+        <li>
+            Closures: nções que "lembram" do seu escopo léxico (o ambiente em que foram criadas), mesmo após a função externa ter retornado.
+        </li>
+    </ul>
+    <p>
+        Funções anônimas são muito versáteis e têm várias aplicações em JavaScript, são uma ferramenta poderosa que oferece concisão, encapsulamento e flexibilidade. Entender como e quando usá-las é fundamental para escrever código JavaScript eficiente e expressivo.
+    </p>
+    <p>
+        Vantagens de usar funções anônimas:
+    </p>
+    <ul>
+        <li>Código mais conciso: Em muitos casos, usar uma função anônima torna o código mais curto e legível, especialmente quando a função é simples e só é usada em um único lugar</li>
+        <li>Encapsulamento: Funções anônimas (especialmente IIFEs) ajudam a criar escopos isolados, evitando a poluição do escopo global e conflitos de nomes</li>
+        <li>Flexibilidade: Elas oferecem grande flexibilidade em situações onde você precisa passar uma função como argumento ou definir uma função rapidamente sem precisar dar um nome a ela</li>
+    </ul>
+
+    <script src="index.js"></script>
 </body>
 </html>
