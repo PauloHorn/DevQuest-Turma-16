@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Arrays</title>
+</head>
+<body>
+    <h1>
+        Trabalhando com Arrays
+    </h1>
+    <p>
+        Como arrays são objetos, eles possuem proriedades e métodos. Podemos usar diversas ferramentas para acessarmos seu conteúdo e termos diversos resultados. Alguns exemplos das mais utilizadas:
+    </p>
+    <ul>
+        <li><strong>nomeDoArray.length:</strong> irá retornoar  o número de elementos do array.</li>
+        <li><strong>nomeDoArray.push(elemento a ser adicionado):</strong> adiciona um novo elemento ao final do array.</li>
+        <li><strong>nomeDoArray.pop():</strong> remove o último elemento do array.</li>
+        <li><strong>nomeDoArray.shift():</strong> remove o primeiro elemento do array.</li>
+        <li><strong>nomeDoArray.unshift(elemento a ser adicionado):</strong> adiciona um novo elemento no início do array;</li>
+        <li><strong>nomeDoArray.indexOf(elemento a ser procurado):</strong> retorna o índice do elemento procurado dentro do array ou retorna -1 se o elemento não existir no array;</li>
+        <li><strong>nomeDoArray.slice():</strong> Retorna uma cópia de uma parte do array, especificada por um índice inicial e um índice final (ele é opcional e devemos lembrar que não é inclusivo, ou seja, retorna até o índice anterior)</li>
+        <li><strong>nomeDoArray.splice(start, deleteCount, item1, item2, ...):</strong> start: Índice no qual iniciar a alteração do array, se for maior que o comprimento do array nenhum elemento é excluído e o método se comportará como se fosse uma adição, começando no final do array, se for negativo, ele começará essa quantidade de elementos a partir do fim do array. (-1 significa o último elemento, -2 significa o penúltimo, e assim por diante). O deleteCount (opcional): Um inteiro indicando o número de elementos antigos do array que devem ser removidos. Se deleteCount for 0, nenhum elemento será removido. Se deleteCount for omitido, todos os elementos a partir do índice start até o final do array serão excluídos. Se deleteCount for maior que o número de elementos restantes no array a partir de start, então todos os elementos a partir de start até o final serão deletados. E item1, item2, ... (opcional): Os elementos a serem adicionados ao array, começando no índice start. Se você não especificar nenhum elemento, splice() apenas removerá elementos.</li>
+        <li><strong>nomeDoArray.concat(outroArray):</strong> Concatena (junta) dois ou mais arrays, retornando um novo array.;</li>
+        <li><strong>nomeDoArray.join():</strong> Junta todos os elementos de um array em uma string, usando um separador especificado (opcional).</li>
+        <li>Métodos de iteração: exemplos a serem procurados. Array.prototype.map(): Cria um novo array com os resultados da chamada de uma função fornecida em cada elemento do array chamado. Array.prototype.filter(): Cria um novo array com todos os elementos que passam no teste implementado pela função fornecida. Array.prototype.reduce(): Executa uma função reducer (fornecida por você) para cada elemento do array, resultando em um único valor de retorno. Array.prototype.forEach(): Executa uma dada função para cada elemento de um array.
+        </li>
+    </ul>
+
+    <script src="index.js"></script>
+</body>
+</html>

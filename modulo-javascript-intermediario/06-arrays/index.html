@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays - Listas</title>
+</head>
+<body>
+    <h1>
+        Arrays - Listas
+    </h1>
+    <p>
+        Em JavaScript, um array é um objeto que armazena uma coleção ordenada de valores. Pense nele como uma lista ou uma sequência de itens. Cada item no array é chamado de elemento, e cada elemento tem uma posição numérica chamada de índice. Os índices em JavaScript começam em 0.
+    </p>
+    <P>
+        Como arrays são cirados?
+    </P>
+    <p>
+        Existem duas maneiras principais de se criar arrays:
+    </p>
+    <ul>
+        <li>
+            Usando literais de arrays (a forma mais comum e recomendada por ser mais concisa e legível): let meuArray = [10, 20, 30, "texto", true]
+        </li>
+        <li>
+            Usando o construtor Array() (menos comum, não recomendada por ser muito genérica): let outroArray = new Array(5) // vai criar um array com 5 posições vazias; let maisUmArray = new Array(1, 2, 3) //cria um array com os elementos 1, 2 e 3.
+        </li>
+    </ul>
+    <p>
+        É semelhante à criação de variáveis, mas temos de colocar os elementos dentro de colchetes e separá-los com vírgulas. Para acesarmos os elementos dos arrays você invoca o nome do array e coloca o indice dentro de conchetes, lembrando que a primeira posição é a zero (0). Exemplo:
+    </p>
+    <p>
+        No array const frutas = ["maçã", "banana", "laranja"];
+    </p>
+    <p>
+        console.log(frutas[0]); // Imprime "maçã" (o primeiro elemento)
+    </p>
+
+    <script src="index.js"></script>
+</body>
+</html>
