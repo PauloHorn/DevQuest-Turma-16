@@ -5,6 +5,15 @@ for(let i = 0; i < frutas.length; i++) {
 };
 
 console.log(frutas.length);
+
+frutas.forEach(function(item, indice, array){
+    console.log("Fruta: " + frutas[indice]);
+});
+console.log("---------------------");
+
+frutas.forEach(function(item){
+    console.log("Fruta: " + item);
+});
 console.log("---------------------");
 
 frutas.push("limão");
