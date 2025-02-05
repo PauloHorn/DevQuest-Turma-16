@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando o DOM</title>
+</head>
+<body>
+    <h1>
+        Posts do Twitter
+    </h1>
+
+    <article class="post">
+        <p>
+            <strong>Paulo Horn</strong> <span>@PauloHorn - 10 min</span>
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae velit distinctio natus sint error aliquam doloribus quas aperiam ut at recusandae tempore, id atque neque amet eaque nesciunt odit soluta!
+        </p>
+
+        <br>
+
+        <div class="comentarios">
+            <h3>
+                Comentários:
+            </h3>
+
+            <input type="text" name="novo-comentario" id="" placeholder="Digite o seu comentário:">
+
+            <button onclick="adicionarComentario()">Adicionar comentário</button>
+
+            <br>
+
+            <div id="novos-comentarios"></div>
+        </div>
+    </article>
+
+    <script src="index.js"></script>
+</body>
+</html>
