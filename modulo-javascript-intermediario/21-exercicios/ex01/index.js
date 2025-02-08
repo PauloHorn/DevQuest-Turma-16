@@ -1,8 +1,8 @@
 const btnTrocarCor = document.getElementById("btn-trocar-cor");
 
-const quadradoAzul = document.querySelector(".azul");
+const quadradoCorTrocada = document.getElementsByClassName("quadrado");
 
 function trocarDeCor() {
-    quadradoAzul.classList.remove("azul");
-    quadradoAzul.classList.add("amarelo");
+    quadradoCorTrocada[0].classList.remove("azul");
+    quadradoCorTrocada[0].classList.add("amarelo");
 };
