@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    justify-items: center;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.preto {
+    background-color: black;
+}
