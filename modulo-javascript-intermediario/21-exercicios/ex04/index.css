@@ -1,0 +1,8 @@
+body {
+    text-align: center;
+    justify-items: center;
+}
+
+.preenchido {
+    border: 2px solid green;
+}
