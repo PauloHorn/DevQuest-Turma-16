@@ -3,6 +3,6 @@ body {
     justify-items: center;
 }
 
-.preenchido {
+.campo-preenchido {
     border: 2px solid green;
 }
