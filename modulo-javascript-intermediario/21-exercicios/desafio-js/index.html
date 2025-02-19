@@ -20,15 +20,21 @@
             </p>
         </div>
         <div class="formulario">
-            <input type="text" name="nome" id="nome" placeholder="Nome completo *">
-            <input type="text" name="email" id="email" placeholder="Email *">
-            <input type="tel" name="telefone" id="telefone" placeholder="Telefone *">
-            <input type="text" name="mensagem" id="mensagem" class="mensagem" placeholder="Mensagem *">
+            <input type="text" name="nome" id="nome" placeholder="Nome completo *" class="input-text nome">
+            <p class="nome campo-obrigatorio">campo obrigatório</p>
+            <input type="text" name="email" id="email" placeholder="Email *" class="input-text email">
+            <p class="email campo-obrigatorio">campo obrigatório</p>
+            <input type="tel" name="telefone" id="telefone" placeholder="Telefone *" class="input-text telefone">
+            <p class=" telefone campo-obrigatorio">campo obrigatório</p>
+            <input type="text" name="mensagem" id="mensagem" class="input-text mensagem" placeholder="Mensagem *">
+            <p class="mensagem campo-obrigatorio">campo obrigatório</p>
             <p>
                 *campos obrigatórios
             </p>
             <button type="button" id="btn-enviar" class="btn-enviar">Enviar</button>
         </div>
     </main>
+
+    <script src="./src/js/validacao.js"></script>
 </body>
 </html>
