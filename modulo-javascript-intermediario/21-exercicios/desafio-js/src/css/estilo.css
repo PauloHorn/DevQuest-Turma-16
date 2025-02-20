@@ -35,7 +35,8 @@ main {
     height: 378px;
     display: flex;
     flex-direction: column;
-    margin-left: 25px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 input {
@@ -43,7 +44,7 @@ input {
     height: 35px;
     border-radius: 5px;
     padding-left: 10px;
-    margin: auto;
+    margin: 0 auto;
     color: #A8A8A8;
     font-size: 15px;
     font-weight: 700;
@@ -71,12 +72,13 @@ input {
     margin: 0 auto 15px;
 }
 
-.formulario p {
+.formulario .informativo {
     color: #000000;
     font-size: 15px;
     font-weight: 400;
-    padding: 0 0 10px 10px;
+    margin: 0 0 10px 10px;
 }
+
 
 /*Caso os campos não sejam preenchidos*/
 
@@ -88,8 +90,12 @@ input {
     font-size: 8px;
     font-weight: 400;
     color: #F52E2E;
-    padding: 0 20px;
-    display: none;
+    display: block;
+    margin: 0 0 0 20px;
+}
+
+.formulario .campo-obrigatorio.mostrar {
+    display: block;
 }
 
 
