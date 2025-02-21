@@ -32,7 +32,7 @@ main {
 .formulario {
     background-color: #fff;
     width: 340px;
-    height: 378px;
+    height: 478px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -43,8 +43,8 @@ input {
     width: 298px;
     height: 35px;
     border-radius: 5px;
-    padding-left: 10px;
-    margin: 0 auto;
+    padding: 0 0 0 10px;
+    margin: auto;
     color: #A8A8A8;
     font-size: 15px;
     font-weight: 700;
@@ -89,13 +89,13 @@ input {
 .formulario .campo-obrigatorio {
     font-size: 8px;
     font-weight: 400;
-    color: #F52E2E;
-    display: block;
-    margin: 0 0 0 20px;
+    color: #fff;
+    margin: auto auto auto 20px;
+    padding-bottom: 20px;
 }
 
 .formulario .campo-obrigatorio.mostrar {
-    display: block;
+    color: #F52E2E;
 }
 
 
