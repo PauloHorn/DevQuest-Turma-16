@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio JS</title>
+    <title>Desafio JS Intermediário</title>
     <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/estilo2.css">
 </head>
 <body>
     <main>
@@ -15,26 +15,33 @@
                 <br>
                 NOS MANDE UMA MENSAGEM!
             </h2>
-            <p>
+            <P>
                 caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.
-            </p>
+            </P>
         </div>
         <div class="formulario">
-            <input type="text" name="nome" id="nome" placeholder="Nome completo *" class="input-text nome">
-            <p class="nome campo-obrigatorio">campo obrigatório</p>
-            <input type="text" name="email" id="email" placeholder="Email *" class="input-text email">
-            <p class="email campo-obrigatorio">campo obrigatório</p>
-            <input type="tel" name="telefone" id="telefone" placeholder="Telefone *" class="input-text telefone">
-            <p class=" telefone campo-obrigatorio">campo obrigatório</p>
-            <input type="text" name="mensagem" id="mensagem" class="input-text mensagem" placeholder="Mensagem *">
-            <p class="mensagem campo-obrigatorio">campo obrigatório</p>
+            <div>
+                <input type="text" name="nome" id="nome" class="input-text nome" placeholder="Nome completo *">
+                <p class="campo-obrigatorio">Campo obrigatorio</p>
+            </div>
+            <div>
+                <input type="text" name="email" id="email" class="input-text email" placeholder="Email *">
+                <p class="campo-obrigatorio">Campo obrigatorio</p>
+            </div>
+            <div>
+                <input type="text" name="telefone" id="telefone" class="input-text telefone" placeholder="Telefone *">
+                <p class="campo-obrigatorio">Campo obrigatorio</p>
+            </div>
+            <div>
+                <input type="text" name="mensagem" id="mensagem" class="input-text mensagem" placeholder="Mensagem *">
+                <p class="campo-obrigatorio">Campo obrigatorio</p>
+            </div>
             <p class="informativo">
-                *campos obrigatórios
+                * campos obrigatórios
             </p>
-            <button type="button" id="btn-enviar" class="btn-enviar">Enviar</button>
+            <button id="btn-enviar" class="btn-enviar">Enviar</button>
         </div>
     </main>
-
     <script src="./src/js/validacao.js"></script>
 </body>
 </html>
