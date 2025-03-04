@@ -32,7 +32,7 @@ let pessoa = {
 // console.log(sobrenome);
 
 
-//podemos reumir mais, pois quando estamos criando as variáveis, como elas tem o mesmo nome dos componentes do objeto, podemos simplificar:
+//podemos resumir mais, pois quando estamos criando as variáveis, como elas tem o mesmo nome dos componentes do objeto, podemos simplificar:
 
 let {nome, idade, sobrenome} = pessoa;
 
