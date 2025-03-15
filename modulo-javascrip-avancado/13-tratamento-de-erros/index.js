@@ -1,6 +1,9 @@
 
 let ferverAgua = (chaleiraEstaNoFogao, fogoEstaLigado) => {
     return new Promise((resolve, reject) => {
+
+        if (typeof chaleiraEstaNoFogao != "boolean") throw "Somente o tipo booleano é aceito"
+        
         if(chaleiraEstaNoFogao && fogoEstaLigado) {
             console.log("Passo 1 finalizado: Água foi fervida.")
             resolve(true);
@@ -36,13 +39,16 @@ let chaleiraEstaNoFogao = true;
 let fogoEstaLigado = true;
 
 async function iniciarProcessoDeFazerCafe () {
-    try {
+    try{
     const aguaFervida = await ferverAgua(chaleiraEstaNoFogao, fogoEstaLigado);
     const cafePassado = await passarOCafe(aguaFervida);
     const cafeTomado = await tomarCafe(cafePassado);
     const xicaraLavada = await lavarXicara(cafeTomado);
-    if(xicaraLavada) console.log("Finalizado o ritual do café, bora trabalhar!");}catch(error) {
-        console.log(error);
+    if(xicaraLavada) console.log("Finalizado o ritual do café, bora trabalhar!");
+        }catch(err){
+        console.log(err);
+    }finally{
+        console.log("Aprendemos o try, catch, finally e o trhow!")
     }
 };
 
