@@ -1,0 +1,8 @@
+{
+    "id": 1,
+    "titulo": "Titulo",
+    "sinopse": "Sinopse...",
+    "genero": "genero",
+    "elenco": ["Ator1", "Ator2", "Ator3"],
+    "direção": "diretor"
+}

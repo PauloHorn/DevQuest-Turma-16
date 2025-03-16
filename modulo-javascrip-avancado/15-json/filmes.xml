@@ -1,0 +1,52 @@
+<filmes>
+    <filme id="1">
+        <titulo>
+        Titulo
+        </titulo>
+        <sinopse>
+        Sinopse...
+        </sinopse>
+        <genero>
+        Genero
+        </genero>
+        <elenco>
+            <ator>
+            ator 1
+            </ator>
+            <ator>
+            ator 2
+            </ator>
+            <ator>
+            ator 3
+            </ator>
+        </elenco>
+        <direcao>
+        diretor
+        </direcao>
+    </filme>
+    <filme id="2">
+        <titulo>
+        Titulo
+        </titulo>
+        <sinopse>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae laborum voluptatum accusamus molestias facilis autem recusandae maiores nobis dolorum exercitationem, error ut eum explicabo eius eaque modi? Sint, aliquam. Sint.
+        </sinopse>
+        <genero>
+        Genero
+        </genero>
+        <elenco>
+            <ator>
+            ator 1
+            </ator>
+            <ator>
+            ator 2
+            </ator>
+            <ator>
+            ator 3
+            </ator>
+        </elenco>
+        <direcao>
+        diretor
+        </direcao>
+    </filme>
+</filmes>
